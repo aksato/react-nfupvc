@@ -23,12 +23,7 @@ export default function App() {
           </ul>
         </nav>
       </header>
-      <main id="conteiner-principal">
-        <h1>
-          <i>Watch that film!</i>
-        </h1>
-        <p>A Página para Comunidade Resenhadora de Filmes</p>
-      </main>
+      <main id="conteiner-principal"></main>
       <footer id="rodape-principal">
         <p>
           <small>Copyright 2021</small>
