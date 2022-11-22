@@ -4,11 +4,10 @@ import logo from './logo.svg';
 
 export default function App() {
   return (
-    <div>
+    <>
       <header id="cabecalho-principal">
         <a href="#">
-          {' '}
-          <img src={logo} />{' '}
+          <img src={logo} />
         </a>
         <nav id="navegacao-principal">
           <ul>
@@ -25,13 +24,16 @@ export default function App() {
         </nav>
       </header>
       <main id="conteiner-principal">
-        <h2>Hello World</h2>
+        <h1>
+          <i>Watch that film!</i>
+        </h1>
+        <p>A Página para Comunidade Resenhadora de Filmes</p>
       </main>
       <footer id="rodape-principal">
         <p>
           <small>Copyright 2021</small>
         </p>
       </footer>
-    </div>
+    </>
   );
 }

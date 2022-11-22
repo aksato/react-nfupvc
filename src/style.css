@@ -17,7 +17,8 @@
 }
 
 html,
-body {
+body,
+#root {
   height: 100%;
 }
 
@@ -43,7 +44,7 @@ li a:hover {
   text-decoration: underline;
 }
 
-body {
+#root {
   display: flex;
   flex-direction: column;
 }
@@ -152,4 +153,8 @@ button {
 button:hover {
   background-color: var(--secondary-color-light);
   border: 2px solid var(--secondary-color-light);
+}
+
+.button-group button {
+  margin-right: 10px;
 }
